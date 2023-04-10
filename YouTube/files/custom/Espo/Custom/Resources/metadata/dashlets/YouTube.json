@@ -1,0 +1,21 @@
+{
+  "view": "custom:views/dashlets/youtube-dashlet",
+  "options": {
+    "fields": {
+      "title": {
+        "type": "varchar",
+        "trim": true,
+        "required": true
+      },
+      "url": {
+        "type": "url",
+        "required": true
+      }
+    },
+    "layout": [
+      {
+        "rows": [[{ "name": "title" }], [{ "name": "url" }]]
+      }
+    ]
+  }
+}

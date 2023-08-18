@@ -1,0 +1,10 @@
+{
+  "name": "iFrame Extended Dashlet",
+  "description": "iFrame extension with some custom parameters.",
+  "author": "Novastream AB",
+  "acceptableVersions": [">=7.0.0"],
+  "version": "1.0.0",
+  "skipBackup": true,
+  "checkVersionUrl": "https://novastream.se",
+  "releaseDate": "2023-08-18"
+}

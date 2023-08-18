@@ -1,0 +1,8 @@
+{
+  "fields": {
+    "urlParam": "URL parameter",
+    "urlParamVal": "URL parameter value",
+    "allowFullscreen": "Allow fullscreen",
+    "loading": "Lazy loading"
+  }
+}

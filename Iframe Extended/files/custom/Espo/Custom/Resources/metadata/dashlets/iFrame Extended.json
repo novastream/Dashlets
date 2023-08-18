@@ -1,0 +1,46 @@
+{
+  "view": "custom:views/dashlets/iframe-extended-dashlet",
+  "options": {
+    "fields": {
+      "title": {
+        "type": "varchar",
+        "trim": true,
+        "required": true
+      },
+      "url": {
+        "type": "url",
+        "required": true
+      },
+      "urlParam": {
+        "type": "varchar",
+        "trim": false,
+        "required": false
+      },
+      "urlParamVal": {
+        "type": "enum",
+        "required": false,
+        "options": ["None", "User ID"]
+      },
+      "allowFullscreen": {
+        "type": "enum",
+        "required": true,
+        "options": ["Disabled", "Enabled"]
+      },
+      "loading": {
+        "type": "enum",
+        "required": true,
+        "options": ["Disabeld", "Eager", "Lazy"]
+      }
+    },
+    "layout": [
+      {
+        "rows": [
+          [{ "name": "title" }],
+          [{ "name": "url" }],
+          [{ "name": "urlParam" }, { "name": "urlParamVal" }],
+          [{ "name": "allowFullscreen" }, { "name": "loading" }]
+        ]
+      }
+    ]
+  }
+}
